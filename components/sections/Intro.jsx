@@ -27,30 +27,20 @@ const Intro = () => {
             </Link>
           <ul className="flex justify-center items-center gap-3 w-fit p-3 bg-sky-100 rounded-xl mx-auto">
             <li>
-              <Link href='#'>
+              <Link href='https://github.com/MaheshJV9130' target='_blank'>
                 <Image src="/github.svg" alt="github" width={50} height={50}/>
               </Link>
             </li>
             <li>
-              <Link href='#'>
+              <Link href='https://www.linkedin.com/in/mahesh-vispute-114a5637b/' target='_blank'>
                 <Image src="/linkedin.svg" alt="github" width={50} height={50}/>
               </Link>
             </li>
             <li>
-              <Link href='#'>
+              <Link href='https://x.com/Maheshh_Vispute' target='_blank'>
                 <Image src="/x.svg" alt="github" width={50} height={50}/>
               </Link>
-            </li>
-            <li>
-              <Link href='#'>
-                <Image src="/insta.svg" alt="github" width={50} height={50}/>
-              </Link>
-            </li>
-            <li>
-              <Link href='#'>
-                <Image src="/telegram.svg" alt="github" width={50} height={50}/>
-              </Link>
-            </li>
+            </li> 
           </ul>
          
         </div>
