@@ -15,14 +15,7 @@ const ContactForm = () => {
   } = useForm();
 
   const onSubmit = async (data, event) => {
-    event.preventDefault();
-    let req = await fetch("/api/email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-    req = await req.json();
-    console.log(req);
+   console.log(data)
   };
 
   return (
