@@ -38,14 +38,10 @@ const Skills = () => {
       icon: "https://img.icons8.com/color/48/000000/javascript--v1.png",
     },
 
-    {
-      name: "Python",
-      icon: "https://img.icons8.com/color/48/000000/python--v1.png",
-    },
-    {
-      name: "C++",
-      icon: "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
-    },
+   {
+    name:'NextJS',
+    icon:'/nextjs.svg'
+   },
     {
       name: "MongoDB",
       icon: "https://img.icons8.com/color/48/000000/mongodb.png",
@@ -54,6 +50,10 @@ const Skills = () => {
     {
       name: "Netlify",
       icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
+    },
+    {
+      name: "Vercel",
+      icon: "/vercel.svg",
     },
 
     {
