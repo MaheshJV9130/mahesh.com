@@ -13,7 +13,7 @@ const About = () => {
       <div className=" flex md:flex-row flex-col max-w-screen md:mt-5 justify-center items-center mx-auto">
         <div className="w-fit mt-3 md:mx-20">
 
-        <Image src='/profile_2.png' className="rounded-xl" alt='profile' height={330} width={330}/>
+        <img src='/profile.jpg' className="rounded-xl w-[300px] h-[300px] object-contain" alt='profile' />
         </div>
         <div className="md:w-1/2 flex flex-col items-center justify-center  w-screen px-2 text-center mt-3">
             <h2 className="text-3xl font-bold">I'm Mahesh Vispute</h2>
